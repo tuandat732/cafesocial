@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingHorizontal="15dp"
+    tools:context=".view.activity.AddPostActivity">
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:weightSum="10"
+        android:gravity="center"
+        android:background="@drawable/border"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/title"
+            android:layout_weight="8"
+            android:text="Đánh giá M.O.A 98 Hàng Buồm"
+            android:textSize="22sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btnClose"
+            android:padding="5dp"
+            android:background="#919191"
+            app:cardCornerRadius="60dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/ic_baseline_close_24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <TextView
+        android:text="Xếp hạng của bạn"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:textSize="19sp"
+        android:layout_marginBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow
+            android:layout_marginBottom="10dp"
+            android:gravity="center_vertical"
+            >
+            <TextView
+                android:text="Vị trí"
+                android:textColor="@color/black"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                />
+            <RatingBar
+                android:id="@+id/rateStarLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/Widget.AppCompat.RatingBar"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_marginBottom="10dp"
+            android:gravity="center_vertical"
+            >
+            <TextView
+                android:text="Không gian"
+                android:textColor="@color/black"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                />
+            <RatingBar
+                android:id="@+id/rateStarSpace"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_marginBottom="10dp"
+            android:gravity="center_vertical"
+            >
+            <TextView
+                android:text="Đồ uống"
+                android:textColor="@color/black"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                />
+            <RatingBar
+                android:id="@+id/rateStarMenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_marginBottom="10dp"
+            android:gravity="center_vertical"
+            >
+            <TextView
+                android:text="Dịch vụ"
+                android:textColor="@color/black"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                />
+            <RatingBar
+                android:id="@+id/rateStarService"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_marginBottom="10dp"
+            android:gravity="center_vertical"
+            >
+            <TextView
+                android:text="Giá cả"
+                android:textColor="@color/black"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                />
+            <RatingBar
+                android:id="@+id/rateStarPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                />
+        </TableRow>
+
+        <TextView
+            android:text="Đánh giá của bạn"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:textSize="19sp"
+            android:layout_marginBottom="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/inputPostTitle"
+            android:layout_width="match_parent"
+            android:text="Đánh giá"
+            android:background="@drawable/border"
+            android:padding="10dp"
+            android:layout_height="wrap_content"
+            />
+
+    </TableLayout>
+
+
+    <EditText
+        android:id="@+id/inputPostContent"
+        android:layout_width="match_parent"
+        android:text="Đánh giá"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/border"
+        android:padding="10dp"
+        android:inputType="text|textMultiLine"
+        android:gravity="top"
+        android:layout_height="200dp"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/btnAddImage"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="100dp"
+        app:cardCornerRadius="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="7dp"
+            android:background="@drawable/border"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="8dp"
+                android:src="@drawable/ic_baseline_photo_camera_24" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thêm ảnh" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/listImageAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="end"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnAddPost"
+            android:text="Gửi đánh giá"
+            android:paddingHorizontal="20dp"
+            android:textColor="@color/white"
+            android:background="@drawable/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

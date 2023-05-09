@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    app:cardCornerRadius="5dp"
+    android:padding="5dp"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:outlineSpotShadowColor="#271F1F"
+    android:layout_marginBottom="18dp"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/avatarPost"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/chill_1"
+            android:layout_marginRight="10dp"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/username"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Anh Quynh"
+                    android:textStyle="bold"
+                    />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_baseline_arrow_right_24"
+                    />
+
+                <TextView
+                    android:id="@+id/storeName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hang buom"
+                    android:textStyle="bold"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+                <TextView
+                    android:id="@+id/rateCount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5.0"
+                    android:textStyle="bold"
+                    />
+
+                <RatingBar
+                    android:id="@+id/rateStar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="?android:attr/ratingBarStyleSmall"
+                    />
+
+                <TextView
+                    android:id="@+id/timeUpPost"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="17 ngay truoc"
+                    android:layout_marginLeft="5dp"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/postContent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="chao moi nguoi"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/gridImg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!--        Like Comment btn-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:background="@drawable/border"
+        android:layout_marginTop="5dp"
+        >
+
+        <Button
+            android:id="@+id/btnLike"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thích"
+            android:background="@color/white"
+            android:gravity="center"
+            android:paddingVertical="10dp"
+            />
+
+        <Button
+            android:id="@+id/btnCmt"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bình luận"
+            android:background="@color/white"
+            android:gravity="center"
+            android:paddingVertical="10dp"
+            />
+
+    </LinearLayout>
+
+<!--    Comment input-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/avatarCmt"
+            android:layout_width="50dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:src="@drawable/chill_1"
+            />
+
+        <FrameLayout
+            android:layout_weight="8"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/inputCmt"
+                android:paddingVertical="10dp"
+                android:paddingHorizontal="10dp"
+                android:hint="Nhập bình luận ..."
+                android:background="@drawable/input_gray"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnSendCmt"
+                android:layout_gravity="right|center"
+                android:layout_marginRight="10dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/ic_baseline_send_24"
+                />
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <!--        Comment Post-->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/listCmt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnViewMoreCmt"
+        android:text="Hiển thị"
+        android:gravity="center"
+        android:background="@color/white"
+        android:textStyle="bold"
+        android:paddingVertical="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
+</androidx.cardview.widget.CardView>

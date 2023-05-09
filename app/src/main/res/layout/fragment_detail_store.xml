@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/background"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:background="@color/background"
+        tools:context=".view.activity.DetailStoreActivity">
+
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="15dp"
+            android:outlineSpotShadowColor="@color/background"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:paddingVertical="20dp"
+                android:paddingHorizontal="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:weightSum="6"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/storeName"
+                        android:layout_weight="5"
+                        android:textColor="@color/black"
+                        android:text="M.O.A 98 Hàng Buồm"
+                        android:textStyle="bold"
+                        android:textSize="25sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <ImageView
+                        android:id="@+id/btnSave"
+                        android:layout_width="wrap_content"
+                        android:layout_height="19dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:src="@drawable/ic_baseline_bookmark_24" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginBottom="6dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:src="@drawable/ic_baseline_add_location_24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:id="@+id/storeLocation"
+                        android:textColor="@color/black"
+                        android:text="98 Hàng buồm, Hoàn Kiếm"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:src="@drawable/ic_baseline_my_location_24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:id="@+id/btnViewMap"
+                        android:text="Hiển thị bản đồ"
+                        android:textColor="@color/primary"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:text="-"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/btnViewGo"
+                        android:text="Xem đường đi"
+                        android:textColor="@color/primary"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:text="-"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/btnViewMenu"
+                        android:text="Xem menu"
+                        android:textColor="@color/primary"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <androidx.cardview.widget.CardView
+                    app:cardCornerRadius="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:src="@drawable/chill_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp" />
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!--    Đánh giá-->
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="15dp"
+            android:outlineSpotShadowColor="@color/background"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:paddingVertical="10dp"
+                android:paddingHorizontal="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="Đánh giá"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <androidx.cardview.widget.CardView
+                        app:cardCornerRadius="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:id="@+id/storeRateTotal"
+                            android:text="4.8"
+                            android:padding="10dp"
+                            android:background="@color/primary"
+                            android:textColor="@color/white"
+                            android:textSize="35sp"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                    </androidx.cardview.widget.CardView>
+                    <LinearLayout
+                        android:layout_marginLeft="20dp"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:id="@+id/storeRateString"
+                            android:text="Tuyệt vời"
+                            android:textStyle="bold"
+                            android:textSize="24sp"
+                            android:textColor="@color/black"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/storeRateCount"
+                            android:text="/5 (3 đánh giá)"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- Đánh giá dịch vụ-->
+                <TableLayout
+                    android:layout_marginTop="5dp"
+                    android:stretchColumns="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TableRow android:gravity="center" android:paddingVertical="3dp">
+                        <TextView
+                            android:text="Vị trí"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content" />
+                        <ProgressBar
+                            android:id="@+id/storeRateLocationPBar"
+                            android:layout_height="8dp"
+                            style="@android:style/Widget.ProgressBar.Horizontal"
+                            android:background="@color/gray"
+                            android:backgroundTint="@color/primary"
+                            />
+                        <TextView
+                            android:id="@+id/storeRateLocation"
+                            android:text="5.0"
+                            android:layout_marginLeft="10dp"
+                            android:paddingHorizontal="8dp"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            />
+                    </TableRow>
+
+                    <TableRow android:gravity="center" android:paddingVertical="3dp">
+                        <TextView
+                            android:text="Không gian"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content" />
+                        <ProgressBar
+                            android:id="@+id/storeRateSpacePBar"
+                            android:layout_height="8dp"
+                            style="@android:style/Widget.ProgressBar.Horizontal"
+                            android:background="@color/gray"
+                            android:backgroundTint="@color/primary"
+                            />
+                        <TextView
+                            android:id="@+id/storeRateSpace"
+                            android:text="5.0"
+                            android:layout_marginLeft="10dp"
+                            android:paddingHorizontal="8dp"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            />
+                    </TableRow>
+
+                    <TableRow android:gravity="center" android:paddingVertical="3dp">
+                        <TextView
+                            android:text="Đồ uống"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content" />
+                        <ProgressBar
+                            android:id="@+id/storeRateMenuPBar"
+                            android:layout_height="8dp"
+                            style="@android:style/Widget.ProgressBar.Horizontal"
+                            android:background="@color/gray"
+                            android:backgroundTint="@color/primary"
+                            />
+                        <TextView
+                            android:id="@+id/storeRateMenu"
+                            android:text="5.0"
+                            android:layout_marginLeft="10dp"
+                            android:paddingHorizontal="8dp"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            />
+                    </TableRow>
+
+                    <TableRow android:gravity="center" android:paddingVertical="3dp">
+                        <TextView
+                            android:text="Phục vụ"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content" />
+                        <ProgressBar
+                            android:id="@+id/storeRateServicePBar"
+                            android:layout_height="8dp"
+                            style="@android:style/Widget.ProgressBar.Horizontal"
+                            android:background="@color/gray"
+                            android:backgroundTint="@color/primary"
+                            />
+                        <TextView
+                            android:id="@+id/storeRateService"
+                            android:text="5.0"
+                            android:layout_marginLeft="10dp"
+                            android:paddingHorizontal="8dp"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            />
+                    </TableRow>
+
+                    <TableRow android:gravity="center" android:paddingVertical="3dp">
+                        <TextView
+                            android:text="Giá cả"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content" />
+                        <ProgressBar
+                            android:id="@+id/storeRatePricePBar"
+                            android:layout_height="8dp"
+                            style="@android:style/Widget.ProgressBar.Horizontal"
+                            android:background="@color/gray"
+                            android:backgroundTint="@color/primary"
+                            />
+                        <TextView
+                            android:id="@+id/storeRatePrice"
+                            android:text="5.0"
+                            android:layout_marginLeft="10dp"
+                            android:paddingHorizontal="8dp"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            />
+                    </TableRow>
+
+<!--                    <com.example.cafesocial.view.component.StoreProgressBar-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        />-->
+                </TableLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!--            Thông tin chi tiết-->
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="15dp"
+            android:outlineSpotShadowColor="@color/background"
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:paddingVertical="20dp"
+                android:paddingHorizontal="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_marginBottom="10dp"
+                    android:text="Thông tin chi tiết"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="5dp"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_marginRight="5dp"
+                        android:src="@drawable/ic_baseline_attach_money_24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/storePrice"
+                        android:text="25.000đ - 55.000đ"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="5dp"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_marginRight="5dp"
+                        android:src="@drawable/ic_baseline_access_time_24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/storeTime"
+                        android:text="25.000đ - 55.000đ"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="5dp"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_marginRight="5dp"
+                        android:src="@drawable/ic_baseline_local_phone_24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/storePhone"
+                        android:text="023472034"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="5dp"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_marginRight="5dp"
+                        android:src="@drawable/ic_baseline_more_24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/storeTag"
+                        android:text="Cafe đẹp - Cafe ngoài trời - Cafe Trên cao"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!--                Địa điểm cụ thể-->
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="15dp"
+            android:layout_marginTop="15dp"
+            android:outlineSpotShadowColor="@color/background"
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:paddingVertical="20dp"
+                android:paddingHorizontal="10dp"
+                android:orientation="vertical"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="Địa điểm cụ thể"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <fragment
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:id="@+id/map"
+                    tools:context=".MapsActivity"
+                    android:name="com.google.android.gms.maps.SupportMapFragment" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!--        Tiện ích-->
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="15dp"
+            android:layout_marginTop="15dp"
+            android:outlineSpotShadowColor="@color/background"
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:layout_height="wrap_content">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/listUtils"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </androidx.cardview.widget.CardView>
+
+        <!--        Đánh giá từ cộng đồng-->
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@color/white"
+            android:outlineSpotShadowColor="@color/background"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:background="@color/white"
+                android:paddingVertical="20dp"
+                android:paddingHorizontal="10dp"
+                android:orientation="vertical"
+                android:layout_marginBottom="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:gravity="center"
+                    android:weightSum="2"
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_weight="1.7"
+                        android:text="Đánh giá từ cộng đồng"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_weight="0.3"
+                        android:id="@+id/btnWriteRate"
+                        android:text="Viết đánh giá"
+                        android:paddingHorizontal="10dp"
+                        android:paddingVertical="6dp"
+                        android:background="@drawable/btn"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <androidx.cardview.widget.CardView
+                    app:cardCornerRadius="20dp"
+                    android:outlineSpotShadowColor="@color/background"
+                    android:layout_width="match_parent"
+                    android:layout_marginBottom="15dp"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:background="@color/pink"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp"
+                            >
+                            <ImageView
+                                android:src="@drawable/chill_2"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_marginRight="8dp"
+                                />
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:text="Bạn đã từng đến đây?"
+                                    android:textStyle="bold"
+                                    android:textSize="15sp"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+                                <TextView
+                                    android:text="Chia sẻ trải nghiệm và cảm nhận của bản thân cho mọi người cùng biết. \n Những review chất lượng sẽ được xuất hiện ở bảng tin đấy!"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"/>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/listRate"
+                            android:layout_marginTop="20dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!--        Địa điểm lân cận-->
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="15dp"
+            android:layout_marginTop="15dp"
+            android:outlineSpotShadowColor="@color/background"
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:background="@color/white"
+                android:paddingVertical="20dp"
+                android:paddingHorizontal="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:gravity="center"
+                    android:weightSum="2"
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_weight="1.7"
+                        android:text="Địa điểm lân cận"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/btnViewMore"
+                        android:text="Xem thêm"
+                        android:layout_weight="0.3"
+                        android:textColor="@color/primary"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/listStoreNear"
+                    android:layout_marginBottom="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>

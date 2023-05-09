@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        >
+
+<!--        SEARCH-->
+       <androidx.constraintlayout.widget.ConstraintLayout
+           android:layout_width="match_parent"
+           android:layout_height="200dp"
+        >
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="200dp"
+               android:scaleType="centerCrop"
+               android:src="@drawable/img"
+               app:layout_constraintTop_toTopOf="parent"
+               />
+
+           <View
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               app:layout_constraintTop_toTopOf="parent"
+               android:background="#68000000"
+              />
+
+           <TextView
+               android:id="@+id/txtTitle1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Đi và khám phá điểm hẹn hấp dẫn"
+               android:textColor="@color/white"
+               android:textSize="22sp"
+               android:textStyle="bold"
+               app:layout_constraintTop_toTopOf="parent"
+               app:layout_constraintLeft_toLeftOf="parent"
+               app:layout_constraintRight_toRightOf="parent"
+               android:layout_marginTop="30dp"
+               />
+
+           <TextView
+               android:id="@+id/txtTitle2"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Mang đến cho bạn những sự lựa chọn tốt nhất cho điểm hẹn cafe"
+               android:textColor="@color/white"
+               android:textSize="10sp"
+               android:textStyle="bold"
+               app:layout_constraintTop_toBottomOf="@+id/txtTitle1"
+               android:layout_marginTop="5dp"
+               app:layout_constraintLeft_toLeftOf="parent"
+               app:layout_constraintRight_toRightOf="parent"
+               />
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               app:layout_constraintTop_toBottomOf="@+id/txtTitle2"
+               app:layout_constraintLeft_toLeftOf="parent"
+               app:layout_constraintRight_toRightOf="parent"
+               android:gravity="center"
+               android:layout_marginTop="10dp"
+               >
+               <EditText
+                   android:id="@+id/search"
+                   app:layout_constraintTop_toTopOf="parent"
+                   android:layout_width="wrap_content"
+                   android:paddingHorizontal="10dp"
+                   android:layout_height="40dp"
+                   android:background="@drawable/input"
+                   android:hint="Tên quán, khu vục, kiểu quán ..."
+                   app:searchIcon="@null"
+                   />
+
+               <Button
+                   android:id="@+id/btnSearch"
+                   android:layout_width="wrap_content"
+                   android:layout_height="40dp"
+                   android:layout_marginLeft="5dp"
+                   android:text="Tìm quán"
+                   android:background="@drawable/btn"
+                   android:textColor="@color/white"
+                   />
+           </LinearLayout>
+
+       </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+<!--        LIST CATEGORY-->
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:paddingVertical="10dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mục đích bạn cần ?"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/listPurpose"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                </androidx.recyclerview.widget.RecyclerView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:paddingVertical="10dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Khu vực gần đây"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/listLocation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                </androidx.recyclerview.widget.RecyclerView>
+            </LinearLayout>
+
+            <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginBottom="20dp"
+                android:paddingVertical="10dp"
+                >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Địa điểm nổi bật"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/listTopStore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+            </androidx.recyclerview.widget.RecyclerView>
+        </LinearLayout>
+        </LinearLayout>
+
+<!--        FOOTER-->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="20dp"
+            android:layout_marginBottom="40dp"
+            >
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/img_1" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chúng tôi có đang bỏ lỡ địa điểm nào bạn biết ?"
+                    android:textStyle="bold"
+                    />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:text="Đóng góp địa điểm"
+                    android:background="@drawable/btn"
+                    android:textColor="@color/white"
+                    android:paddingHorizontal="5dp"
+                    android:textSize="10sp"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

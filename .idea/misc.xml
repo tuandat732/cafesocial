@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/A-coder-tokyo/Android/school/cafeSocial/app/src/main/res/drawable/border.xml" value="0.175" />
+        <entry key="..\:/A-coder-tokyo/Android/school/cafeSocial/app/src/main/res/drawable/btn.xml" value="0.175" />
+        <entry key="..\:/A-coder-tokyo/Android/school/cafeSocial/app/src/main/res/drawable/ic_baseline_bookmark_24.xml" value="0.175" />
+        <entry key="..\:/A-coder-tokyo/Android/school/cafeSocial/app/src/main/res/drawable/ic_baseline_send_24.xml" value="0.175" />
+        <entry key="..\:/A-coder-tokyo/Android/school/cafeSocial/app/src/main/res/drawable/input.xml" value="0.175" />
+        <entry key="..\:/A-coder-tokyo/Android/school/cafeSocial/app/src/main/res/drawable/input_gray.xml" value="0.175" />
+        <entry key="..\:/A-coder-tokyo/Android/school/cafeSocial/app/src/main/res/layout/activity_add_store.xml" value="0.2526041666666667" />
+        <entry key="..\:/A-coder-tokyo/Android/school/cafeSocial/app/src/main/res/layout/activity_auth.xml" value="0.2526041666666667" />
+        <entry key="..\:/A-coder-tokyo/Android/school/cafeSocial/app/src/main/res/layout/activity_detail_store.xml" value="0.2526041666666667" />
+        <entry key="..\:/A-coder-tokyo/Android/school/cafeSocial/app/src/main/res/layout/activity_login.xml" value="0.2526041666666667" />
+        <entry key="..\:/A-coder-tokyo/Android/school/cafeSocial/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/A-coder-tokyo/Android/school/cafeSocial/app/src/main/res/layout/activity_search.xml" value="0.2526041666666667" />
+        <entry key="..\:/A-coder-tokyo/Android/school/cafeSocial/app/src/main/res/layout/component_store_progress_bar.xml" value="0.2526041666666667" />
+        <entry key="..\:/A-coder-tokyo/Android/school/cafeSocial/app/src/main/res/layout/fragment_discover.xml" value="0.2526041666666667" />
+        <entry key="..\:/A-coder-tokyo/Android/school/cafeSocial/app/src/main/res/layout/fragment_home.xml" value="0.2526041666666667" />
+        <entry key="..\:/A-coder-tokyo/Android/school/cafeSocial/app/src/main/res/layout/fragment_login.xml" value="0.2526041666666667" />
+        <entry key="..\:/A-coder-tokyo/Android/school/cafeSocial/app/src/main/res/layout/fragment_me.xml" value="0.2526041666666667" />
+        <entry key="..\:/A-coder-tokyo/Android/school/cafeSocial/app/src/main/res/layout/fragment_register.xml" value="0.2526041666666667" />
+        <entry key="..\:/A-coder-tokyo/Android/school/cafeSocial/app/src/main/res/layout/fragment_sale.xml" value="0.2526041666666667" />
+        <entry key="..\:/A-coder-tokyo/Android/school/cafeSocial/app/src/main/res/layout/fragment_save_store.xml" value="0.2526041666666667" />
+        <entry key="..\:/A-coder-tokyo/Android/school/cafeSocial/app/src/main/res/layout/item_comment.xml" value="0.2526041666666667" />
+        <entry key="..\:/A-coder-tokyo/Android/school/cafeSocial/app/src/main/res/layout/item_image.xml" value="0.2526041666666667" />
+        <entry key="..\:/A-coder-tokyo/Android/school/cafeSocial/app/src/main/res/layout/item_location.xml" value="0.2526041666666667" />
+        <entry key="..\:/A-coder-tokyo/Android/school/cafeSocial/app/src/main/res/layout/item_post.xml" value="0.264" />
+        <entry key="..\:/A-coder-tokyo/Android/school/cafeSocial/app/src/main/res/layout/item_purpose.xml" value="0.2526041666666667" />
+        <entry key="..\:/A-coder-tokyo/Android/school/cafeSocial/app/src/main/res/layout/item_region.xml" value="0.4" />
+        <entry key="..\:/A-coder-tokyo/Android/school/cafeSocial/app/src/main/res/layout/item_sale.xml" value="0.2526041666666667" />
+        <entry key="..\:/A-coder-tokyo/Android/school/cafeSocial/app/src/main/res/layout/item_save_store.xml" value="0.2526041666666667" />
+        <entry key="..\:/A-coder-tokyo/Android/school/cafeSocial/app/src/main/res/layout/item_search.xml" value="0.2526041666666667" />
+        <entry key="..\:/A-coder-tokyo/Android/school/cafeSocial/app/src/main/res/layout/layout_discover.xml" value="0.2526041666666667" />
+        <entry key="..\:/A-coder-tokyo/Android/school/cafeSocial/app/src/main/res/layout/purpose_item.xml" value="0.2526041666666667" />
+        <entry key="..\:/A-coder-tokyo/Android/school/cafeSocial/app/src/main/res/menu/navigation.xml" value="0.2526041666666667" />
+        <entry key="..\:/A-coder-tokyo/Android/school/prjCafeBtl/cafeSocial/app/src/main/res/drawable/border.xml" value="0.208" />
+        <entry key="..\:/A-coder-tokyo/Android/school/prjCafeBtl/cafeSocial/app/src/main/res/drawable/btn.xml" value="0.208" />
+        <entry key="..\:/A-coder-tokyo/Android/school/prjCafeBtl/cafeSocial/app/src/main/res/drawable/btn_clear.xml" value="0.208" />
+        <entry key="..\:/A-coder-tokyo/Android/school/prjCafeBtl/cafeSocial/app/src/main/res/drawable/btn_filter.xml" value="0.208" />
+        <entry key="..\:/A-coder-tokyo/Android/school/prjCafeBtl/cafeSocial/app/src/main/res/drawable/btn_search_menu_drawer.xml" value="0.125" />
+        <entry key="..\:/A-coder-tokyo/Android/school/prjCafeBtl/cafeSocial/app/src/main/res/drawable/ic_baseline_ac_unit_24.xml" value="0.208" />
+        <entry key="..\:/A-coder-tokyo/Android/school/prjCafeBtl/cafeSocial/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.208" />
+        <entry key="..\:/A-coder-tokyo/Android/school/prjCafeBtl/cafeSocial/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.208" />
+        <entry key="..\:/A-coder-tokyo/Android/school/prjCafeBtl/cafeSocial/app/src/main/res/drawable/input.xml" value="0.208" />
+        <entry key="..\:/A-coder-tokyo/Android/school/prjCafeBtl/cafeSocial/app/src/main/res/drawable/item_filter_gray.xml" value="0.208" />
+        <entry key="..\:/A-coder-tokyo/Android/school/prjCafeBtl/cafeSocial/app/src/main/res/drawable/item_filter_primary.xml" value="0.208" />
+        <entry key="..\:/A-coder-tokyo/Android/school/prjCafeBtl/cafeSocial/app/src/main/res/layout/activity_add_post.xml" value="0.264" />
+        <entry key="..\:/A-coder-tokyo/Android/school/prjCafeBtl/cafeSocial/app/src/main/res/layout/activity_add_store.xml" value="0.1" />
+        <entry key="..\:/A-coder-tokyo/Android/school/prjCafeBtl/cafeSocial/app/src/main/res/layout/activity_auth.xml" value="0.2484375" />
+        <entry key="..\:/A-coder-tokyo/Android/school/prjCafeBtl/cafeSocial/app/src/main/res/layout/activity_detail_store.xml" value="0.264" />
+        <entry key="..\:/A-coder-tokyo/Android/school/prjCafeBtl/cafeSocial/app/src/main/res/layout/activity_filter.xml" value="0.2484375" />
+        <entry key="..\:/A-coder-tokyo/Android/school/prjCafeBtl/cafeSocial/app/src/main/res/layout/activity_filter_result.xml" value="0.264" />
+        <entry key="..\:/A-coder-tokyo/Android/school/prjCafeBtl/cafeSocial/app/src/main/res/layout/activity_login.xml" value="0.2526041666666667" />
+        <entry key="..\:/A-coder-tokyo/Android/school/prjCafeBtl/cafeSocial/app/src/main/res/layout/activity_main.xml" value="0.16" />
+        <entry key="..\:/A-coder-tokyo/Android/school/prjCafeBtl/cafeSocial/app/src/main/res/layout/activity_map.xml" value="0.2484375" />
+        <entry key="..\:/A-coder-tokyo/Android/school/prjCafeBtl/cafeSocial/app/src/main/res/layout/activity_register.xml" value="0.152" />
+        <entry key="..\:/A-coder-tokyo/Android/school/prjCafeBtl/cafeSocial/app/src/main/res/layout/activity_search.xml" value="0.2484375" />
+        <entry key="..\:/A-coder-tokyo/Android/school/prjCafeBtl/cafeSocial/app/src/main/res/layout/component_store_progress_bar.xml" value="0.2484375" />
+        <entry key="..\:/A-coder-tokyo/Android/school/prjCafeBtl/cafeSocial/app/src/main/res/layout/draw.xml" value="0.4" />
+        <entry key="..\:/A-coder-tokyo/Android/school/prjCafeBtl/cafeSocial/app/src/main/res/layout/fragment_add_store.xml" value="0.1" />
+        <entry key="..\:/A-coder-tokyo/Android/school/prjCafeBtl/cafeSocial/app/src/main/res/layout/fragment_detail_store.xml" value="0.2484375" />
+        <entry key="..\:/A-coder-tokyo/Android/school/prjCafeBtl/cafeSocial/app/src/main/res/layout/fragment_discover.xml" value="0.2526041666666667" />
+        <entry key="..\:/A-coder-tokyo/Android/school/prjCafeBtl/cafeSocial/app/src/main/res/layout/fragment_home.xml" value="0.2484375" />
+        <entry key="..\:/A-coder-tokyo/Android/school/prjCafeBtl/cafeSocial/app/src/main/res/layout/fragment_login.xml" value="0.2526041666666667" />
+        <entry key="..\:/A-coder-tokyo/Android/school/prjCafeBtl/cafeSocial/app/src/main/res/layout/fragment_me.xml" value="0.152" />
+        <entry key="..\:/A-coder-tokyo/Android/school/prjCafeBtl/cafeSocial/app/src/main/res/layout/fragment_profile.xml" value="0.2484375" />
+        <entry key="..\:/A-coder-tokyo/Android/school/prjCafeBtl/cafeSocial/app/src/main/res/layout/fragment_register.xml" value="0.2526041666666667" />
+        <entry key="..\:/A-coder-tokyo/Android/school/prjCafeBtl/cafeSocial/app/src/main/res/layout/fragment_sale.xml" value="0.2484375" />
+        <entry key="..\:/A-coder-tokyo/Android/school/prjCafeBtl/cafeSocial/app/src/main/res/layout/fragment_save_store.xml" value="0.1" />
+        <entry key="..\:/A-coder-tokyo/Android/school/prjCafeBtl/cafeSocial/app/src/main/res/layout/item_benefit.xml" value="0.2484375" />
+        <entry key="..\:/A-coder-tokyo/Android/school/prjCafeBtl/cafeSocial/app/src/main/res/layout/item_comment.xml" value="0.2484375" />
+        <entry key="..\:/A-coder-tokyo/Android/school/prjCafeBtl/cafeSocial/app/src/main/res/layout/item_filter_select.xml" value="0.2484375" />
+        <entry key="..\:/A-coder-tokyo/Android/school/prjCafeBtl/cafeSocial/app/src/main/res/layout/item_image.xml" value="0.10885416666666667" />
+        <entry key="..\:/A-coder-tokyo/Android/school/prjCafeBtl/cafeSocial/app/src/main/res/layout/item_image_uri.xml" value="0.2484375" />
+        <entry key="..\:/A-coder-tokyo/Android/school/prjCafeBtl/cafeSocial/app/src/main/res/layout/item_input_select.xml" value="0.2484375" />
+        <entry key="..\:/A-coder-tokyo/Android/school/prjCafeBtl/cafeSocial/app/src/main/res/layout/item_location.xml" value="0.10885416666666667" />
+        <entry key="..\:/A-coder-tokyo/Android/school/prjCafeBtl/cafeSocial/app/src/main/res/layout/item_post.xml" value="0.2484375" />
+        <entry key="..\:/A-coder-tokyo/Android/school/prjCafeBtl/cafeSocial/app/src/main/res/layout/item_purpose.xml" value="0.2484375" />
+        <entry key="..\:/A-coder-tokyo/Android/school/prjCafeBtl/cafeSocial/app/src/main/res/layout/item_region.xml" value="0.2484375" />
+        <entry key="..\:/A-coder-tokyo/Android/school/prjCafeBtl/cafeSocial/app/src/main/res/layout/item_sale.xml" value="0.2484375" />
+        <entry key="..\:/A-coder-tokyo/Android/school/prjCafeBtl/cafeSocial/app/src/main/res/layout/item_save_store.xml" value="0.2484375" />
+        <entry key="..\:/A-coder-tokyo/Android/school/prjCafeBtl/cafeSocial/app/src/main/res/layout/item_search.xml" value="0.2484375" />
+        <entry key="..\:/A-coder-tokyo/Android/school/prjCafeBtl/cafeSocial/app/src/main/res/layout/item_top_store.xml" value="0.2484375" />
+        <entry key="..\:/A-coder-tokyo/Android/school/prjCafeBtl/cafeSocial/app/src/main/res/menu/drawer_view.xml" value="0.2484375" />
+        <entry key="..\:/A-coder-tokyo/Android/school/prjCafeBtl/cafeSocial/app/src/main/res/menu/navigation.xml" value="0.2484375" />
+        <entry key="..\:/A-coder-tokyo/Android/school/prjCafeBtl/cafeSocial/app/src/main/res/xml/network_security_config.xml" value="0.1" />
+        <entry key="..\:/Users/ADMIN/go/src/github.com/tuandat732/btl-android/cafeSocial/app/src/main/res/layout/activity_detail_store.xml" value="0.24230072463768115" />
+        <entry key="..\:/Users/ADMIN/go/src/github.com/tuandat732/btl-android/cafeSocial/app/src/main/res/layout/fragment_discover.xml" value="0.27445652173913043" />
+        <entry key="..\:/Users/ADMIN/go/src/github.com/tuandat732/btl-android/cafeSocial/app/src/main/res/layout/fragment_sale.xml" value="0.296195652173913" />
+        <entry key="..\:/Users/ADMIN/go/src/github.com/tuandat732/btl-android/cafeSocial/app/src/main/res/layout/item_sale.xml" value="0.3359375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
